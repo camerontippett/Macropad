@@ -1,0 +1,13 @@
+Item,Qty,Description,Unit price,Supplier,Link,Notes
+Macropad PCB,1,2-layer 110x122mm board (5 pcs minimum),10.22 (est. for 5),JLCPCB,https://jlcpcb.com,Gerber zip in this repo; not ordered yet
+Raspberry Pi Pico 2,1,RP2350 microcontroller board (micro-USB),NZ$10.49,PB Tech,https://www.pbtech.co.nz/product/SEVRBP0504/imgad/aib/CommonX_20251222114021.png,Need to buy
+MX-compatible switches,12,Keychron Kailh Box switch 35-pack (uses 12),NZ$32.00 per pack,VRC,https://www.vrc.co.nz/product-category/keyboard-switches/,Need to buy
+Kailh hot-swap sockets,12,CPG151101S11 MX sockets (SMD) 20-pack (uses 12),see link,Core Electronics,https://core-electronics.com.au/catalog/product/view/sku/ADA4958,Need to buy
+1N4148 diodes,12,DO-35 through-hole switching diode,NZ$0.22,DigiKey NZ,https://www.digikey.co.nz/en/products/detail/onsemi/1N4148/458603,Need to buy; get a few spares
+Rotary encoder,1,Alps EC11E15244G1 with push button,NZ$8.54,RS NZ,https://nz.rs-online.com/web/p/mechanical-rotary-encoders/7295589,Need to buy
+OLED display,1,0.96in SSD1306 I2C 128x64 (4-pin),A$7.20,Core Electronics,https://core-electronics.com.au/catalog/product/view/sku/CE09493,Need to buy; check pin order before soldering
+1x4 female header,1,2.54mm straight (screen socket),A$0.16,Core Electronics,https://core-electronics.com.au/254mm-1x4-pin-straight-female-header.html,Need to buy
+Micro-USB data cable,1,USB-A to micro-B 1m (must carry data),see link,Core Electronics,https://core-electronics.com.au/usb-cable-type-a-to-micro-b-1m.html,Need to buy
+Keycaps,12,3D printed MX-stem keycaps,own print,Self-printed,,Printed on own 3D printer
+Encoder knob,1,3D printed knob for 6mm flat shaft,own print,Self-printed,,Printed on own 3D printer
+Case,1,3D printed case designed in Fusion 360,own print,Self-printed,,Printed on own 3D printer
