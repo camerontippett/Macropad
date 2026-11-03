@@ -3,7 +3,7 @@ import subprocess
 import os
 import winsound
 import json
-
+import keyboard
 
 with open("config.json") as f:
     pages = json.load(f)
@@ -20,7 +20,7 @@ def press(page, key):
     else:
         os.startfile(action)
 
-
++222
 
 def change_page(current, step):
     next_page = current+step
@@ -34,13 +34,17 @@ def change_page(current, step):
 
 current_page = 1
 while True:
-    turn = input("+ or -: ")
+    event = keyboard.read_event()
+    if event.event_type != "down":
+        continue
+    turn = event.name
     if turn == "+":
         current_page = change_page(current_page, 1)
+        print(pages[str(current_page)]["name"])
     elif turn == "-":
         current_page = change_page(current_page, -1)
+        print(pages[str(current_page)]["name"])
     elif turn in ("1", "2", "3"):
         press(current_page, int(turn))
-    print(pages[str(current_page)]["name"])
 
     
